@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.contactDiv{
+  width: 100%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+.contactform{
+  background-color: #34343b;
+  width: 80%;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: #f8fafc;
+}
+
+.projectDiv{
+  width: 100%;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+.projectCard{
+  width: 40%;
+  height: auto;
+  background-color: #34343b;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: #fff;
+}
+
+.skillsDiv{
+  width: 100%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.aboutCard{
+ 
+  opacity: 1;
+}
+.aboutInfoCards{
+  background-color: #34343b;
+  opacity: 0.8;
+}
+.aboutDiv{
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.downloadBtn{
+  margin-left: auto;
+}
+.aboutCards{
+  background-color: #34343b;
+}
+
+.hero{
+  height: auto;
+  width: 100%;
+  background: url("./assets/codingBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.8;
+}
+.heroDiv{
+  color: black;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.navbar{
+  position: fixed;
+  font-weight: 900;
+  opacity: 0.9;
+  z-index: 100;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 670px){
+  .aboutImg{
+    width: 100%;
+  }
+  .aboutCard{
+    width: 100%;
+  }
+  .aboutCard{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .projectCard{
+    width: 100%;
+  }
+  .contactform{
+    width: 100%;
+  }
+}
